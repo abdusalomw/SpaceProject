@@ -115,7 +115,7 @@ header{
 .site-nav li:first-child{
     margin: 0;
 }
-.site-nav a{
+.nav-link{
     font-family: 'Barlow Condensed';
     font-style: normal;
     font-weight: 400;
