@@ -219,8 +219,19 @@ header{
     font-size: 150px;
     line-height: 172px;
 }
-.explore img{
+.explore{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 100px;
+}
+.explore:hover{
+    width: 350px;
+    height: 350px;
+    opacity: 0.9;
+    background-color: #383B4B;
+    transition: opacity 0.7s ease-in-out;
+    border-radius: 50%;
 }
 
 
@@ -244,7 +255,7 @@ header{
     color: #FFFFFF;
     text-transform: uppercase;
     margin-top: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 30px;
 }
 .moon-text{
     font-family: 'Barlow';
@@ -429,7 +440,7 @@ header{
     text-decoration: none;
 }
 .grey-span:hover{
-    background-color: #ffffff;
+ background-color: rgb(176, 176, 176);
 }
 .grey-span{
     margin-right: 5px;
@@ -460,6 +471,7 @@ header{
     align-items: center;
     cursor: pointer;
     margin-top: 0;
+    text-decoration: none;
     margin-bottom: 0;
     border-radius: 50%;
     width: 70px;
@@ -494,6 +506,7 @@ header{
     height: 70px;
     border: 1px solid white;
     font-family: 'Bellefair';
+    text-decoration: none;
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
@@ -564,4 +577,8 @@ header{
     font-size: 18px;
     line-height: 32px;
     color: #D0D6F9; 
+}
+.active-tab{
+    background-color: #fff;
+    color: #0B0D17; 
 }
