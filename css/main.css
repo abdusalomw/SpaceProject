@@ -418,23 +418,33 @@ header{
     width: 90px;
 }
 .white-span{
-    width: 10px;
-    height: 10px;
+    text-align: center;
+    width: 30px;
+    height: 15px;
     border-radius: 50%;
     background-color: #FFFFFF;
+}
+.white-span a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
 }
 .grey-span:hover{
     background-color: #ffffff;
 }
 .grey-span{
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
+    margin-right: 5px;
+    margin-left: 5px;
+    text-align: center;
+    width: 30px;
+    height: 15px;
+    border-radius: 60%;
     background-color: grey;
 }
-.grey-span:not(:first-child){
-    margin-left: 10px;
+.grey-span a{
+    text-decoration: none;
+    color: grey;
 }
+
 
 /* <TECH PAGE> */
 
