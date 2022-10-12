@@ -159,6 +159,15 @@ header{
 .active_link{
     border-bottom: 2px solid #D0D6F9;
 }
+.planeta-active_link{
+    padding-bottom: 12px;
+    border-bottom: 2px solid #D0D6F9;
+}
+.planeta-link:hover{
+    border-bottom: 2px solid #D0D6F9;
+    padding-bottom: 12px;
+    border-bottom: 2px solid white;
+}
 .site-nav a:active{
     border: 1px solid white;
     border-bottom: 1px solid white;
@@ -191,9 +200,7 @@ header{
     font-style: normal;
     font-weight: 400;
     font-size: 25px;
-    line-height: 34px;  
-    /* identical to box height */
-    
+    line-height: 34px;
     letter-spacing: 4.725px;
     color: #FFFFFF;
 }
@@ -203,11 +210,7 @@ header{
     font-weight: 400;
     font-size: 18px;
     line-height: 32px;
-    /* or 178% */
-    
-    
     color: #D0D6F9;
-    
 }
 .space{
     font-family: 'Bellefair';
@@ -219,7 +222,6 @@ header{
 .explore img{
     margin-top: 100px;
 }
-
 
 
 /* ABOUT-PAGE */
@@ -267,8 +269,6 @@ header{
     font-size: 28px;
     line-height: 34px;
     margin-bottom: 100px;
-    /* identical to box height */
-    
     letter-spacing: 4.725px;
     text-transform: uppercase;
     color: #FFFFFF;
@@ -279,13 +279,8 @@ header{
     font-weight: 700;
     font-size: 28px;
     line-height: 34px;
-    
-    /* identical to box height */
-    
     letter-spacing: 4.725px;
-    
     color: #FFFFFF;
-    
     mix-blend-mode: normal;
     opacity: 0.25;
 }
@@ -328,12 +323,9 @@ header{
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
-    /* identical to box height */
-    
     letter-spacing: 2.3625px;
     text-transform: uppercase;
     margin-bottom:3px ;
-    
     color: #D0D6F9;
 }
 .km-hours__title p{
@@ -342,11 +334,8 @@ header{
     font-weight: 400;
     font-size: 28px;
     line-height: 32px;
-    /* identical to box height */
-    
     text-transform: uppercase;
     margin-top: 3px;
-    
     color: #FFFFFF;
 }
 
@@ -378,12 +367,8 @@ header{
     font-weight: 400;
     font-size: 32px;
     line-height: 37px;
-    /* identical to box height */
-    
     text-transform: uppercase;
-    
     color: #ffffff51;
-    
     mix-blend-mode: normal;
 }
 .center-texts span {
@@ -393,7 +378,6 @@ header{
     font-size: 56px;
     line-height: 64px;
     text-transform: uppercase;
-    
     color: #FFFFFF;
 }
 .center-texts p {
@@ -403,11 +387,7 @@ header{
     font-weight: 400;
     font-size: 18px;
     line-height: 32px;
-    /* or 178% */
-    
-    
     color: #D0D6F9;
-    
 }
 .meet-crew{
     font-family: 'Barlow Condensed';
@@ -416,13 +396,9 @@ header{
     font-size: 28px;
     line-height: 34px;
     margin-bottom: 100px;
-    /* identical to box height */
-    
     letter-spacing: 4.725px;
     text-transform: uppercase;
-    
     color: #FFFFFF;
-    
 }
 .meet-crew span{
     font-family: 'Barlow Condensed';
@@ -431,13 +407,8 @@ header{
     font-size: 28px;
     line-height: 34px;
     margin-right: 10px;
-    /* identical to box height */
-    
     letter-spacing: 4.725px;
-    
     color: #FFFFFF;
-    
-    mix-blend-mode: normal;
     opacity: 0.25;
 }
 .spans{
@@ -450,14 +421,15 @@ header{
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    
     background-color: #FFFFFF;
+}
+.grey-span:hover{
+    background-color: #ffffff;
 }
 .grey-span{
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    
     background-color: grey;
 }
 .grey-span:not(:first-child){
@@ -494,7 +466,7 @@ header{
     letter-spacing: 2px;
     
     color: #0B0D17;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
 }
 .black-tab-text{
     display: flex;
@@ -512,14 +484,16 @@ header{
     font-weight: 400;
     font-size: 32px;
     line-height: 37px;
-    /* identical to box height */
-    
     text-align: center;
     letter-spacing: 2px;
-    
     color: #FFFFFF;
 }
-.Space-rocket {
+.black-tab-text:hover{
+    opacity: 0.7;
+    background-color: #ffffff2d;
+    transition: all 0.3s ease-in-out;
+}
+.space-rocket {
     padding-top: 100px;
     margin-left:200px;
     margin-right: -163px;
@@ -534,7 +508,6 @@ header{
     font-size: 16px;
     line-height: 19px;
     letter-spacing: 2.7px;
-    
     color: #D0D6F9;
 }
 .meet-tech {
@@ -545,10 +518,7 @@ header{
     font-weight: 400;
     font-size: 28px;
     line-height: 34px;
-    /* identical to box height */
-    
     letter-spacing: 4.725px;
-    
     color: #FFFFFF;
 }
 .meet-tech span {
@@ -558,13 +528,8 @@ header{
     font-weight: 700;
     font-size: 28px;
     line-height: 34px;
-    /* identical to box height */
-    
     letter-spacing: 4.725px;
-    
-    color: #FFFFFF;
-    
-    mix-blend-mode: normal;
+    color: #ffffff;
     opacity: 0.25;
 }
 .tab-texts span {
@@ -573,7 +538,6 @@ header{
     font-weight: 400;
     font-size: 56px;
     line-height: 64px;
-    
     color: #FFFFFF;
 }
 .tab-texts p{
@@ -582,8 +546,5 @@ header{
     font-weight: 400;
     font-size: 18px;
     line-height: 32px;
-    /* or 178% */
-    
-    
     color: #D0D6F9; 
 }
