@@ -75,6 +75,7 @@ header{
     
     box-sizing: border-box;
     padding: 30px;
+    padding-bottom: 0;
     
     background-image: url(../img/Desktop\ -\ Crew\ -\ A.png);
 }
@@ -347,4 +348,242 @@ header{
     margin-top: 3px;
     
     color: #FFFFFF;
+}
+
+
+/* CONTACT PAGE */
+
+
+.crew-hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.spaceman{
+    margin-top: 100px;
+    margin-bottom: -90px;
+}
+.spaceman img{
+    margin-top: 50px;
+}
+.center-texts{
+    height: 400px;
+    margin-right: 90px;
+    margin-top: -60px;
+}
+.center-texts h1 {
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    /* identical to box height */
+    
+    text-transform: uppercase;
+    
+    color: #ffffff51;
+    
+    mix-blend-mode: normal;
+}
+.center-texts span {
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
+.center-texts p {
+    margin-top: 40px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    /* or 178% */
+    
+    
+    color: #D0D6F9;
+    
+}
+.meet-crew{
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    margin-bottom: 100px;
+    /* identical to box height */
+    
+    letter-spacing: 4.725px;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    
+}
+.meet-crew span{
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    margin-right: 10px;
+    /* identical to box height */
+    
+    letter-spacing: 4.725px;
+    
+    color: #FFFFFF;
+    
+    mix-blend-mode: normal;
+    opacity: 0.25;
+}
+.spans{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    width: 90px;
+}
+.white-span{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    
+    background-color: #FFFFFF;
+}
+.grey-span{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    
+    background-color: grey;
+}
+.grey-span:not(:first-child){
+    margin-left: 10px;
+}
+
+/* <TECH PAGE> */
+
+.tech-hero{
+    display: flex;
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+.white-tab-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    border: 1px solid white;
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    /* identical to box height */
+    
+    text-align: center;
+    letter-spacing: 2px;
+    
+    color: #0B0D17;
+    background-color: #FFFFFF;
+}
+.black-tab-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    border: 1px solid white;
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    /* identical to box height */
+    
+    text-align: center;
+    letter-spacing: 2px;
+    
+    color: #FFFFFF;
+}
+.Space-rocket {
+    padding-top: 100px;
+    margin-left:200px;
+    margin-right: -163px;
+}
+.tab-texts {
+    margin-left: 50px;
+}
+.tab-texts h1{
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    
+    color: #D0D6F9;
+}
+.meet-tech {
+    margin-top: 80px;
+    margin-bottom: -50px;
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    /* identical to box height */
+    
+    letter-spacing: 4.725px;
+    
+    color: #FFFFFF;
+}
+.meet-tech span {
+    margin-right: 20px;
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    /* identical to box height */
+    
+    letter-spacing: 4.725px;
+    
+    color: #FFFFFF;
+    
+    mix-blend-mode: normal;
+    opacity: 0.25;
+}
+.tab-texts span {
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+    
+    color: #FFFFFF;
+}
+.tab-texts p{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    /* or 178% */
+    
+    
+    color: #D0D6F9; 
 }
